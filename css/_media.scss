@@ -1,0 +1,198 @@
+@media screen and (max-width: 650px){
+    header {
+      padding: 0px;
+    }
+    header .right-header{
+        padding: 0 !important;
+    }
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .left-about{
+            
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .lang{
+        justify-items: center;
+        justify-content: center;
+        display: grid;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+    .main-title{
+        h2{
+            font-size: 3rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .contact-content-conteiner{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+        .left-contact{
+            .contact-info{
+                font-size: 12px !important;
+            }
+        }
+    }
+    .contact-content-conteiner .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-conteiner .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .tl-icon{
+        display: none;
+        
+    }
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey5);
+        .control{
+            margin: .8rem 2rem;
+            min-width: 55px;
+            min-height: 45px;
+        }
+    }
+}
+@media (max-widht: 1432px) {
+    header{
+        padding: 0 !important;
+    }
+    .lang{
+        justify-items: center;
+        justify-content: center;
+        display: grid !important;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+    .section{
+        padding: 7rem 11rem;
+    }
+    .contact-content-conteiner{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-conteiner .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-conteiner .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+}
+@media (max-widht: 1070px) {
+    
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+            
+        }
+    }
+    .main-title{
+        h2{
+            font-size: 4rem;
+            span{
+                font-size: 4rem;
+            }
+            .bg-text{
+                font-size: 4.5rem;
+            }
+        }
+    }
+    
+}
+@media screen and (max-widht: 1085px) {
+    
+    .right-about{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 2rem;
+    }
+    
+}
+@media (min-width: 650px) {
+    .about{
+        .left-contact{
+            display: flex !important;
+            flex-direction: column;
+        }
+    }
+    
+}
+
+@media (max-width:1200px){
+    .lang{
+        display: grid;
+        justify-content: center;
+    }
+}
